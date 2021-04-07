@@ -1,15 +1,15 @@
 # BUILDING INFORMATION MODELING-AUTOMATION OF 3D RECONSTRUCTION 
-[![colab](https://colab.research.google.com/drive/1BzDPxoMdxujfr4oa-GpBeUyM53HRl3Uf)
-[![Research Papers](https://drive.google.com/drive/folders/158C8WPONIfeXPt0sR6XoaGPvizsOnsXt?usp=sharing)
-[![Data Set](https://drive.google.com/drive/folders/1zPIkAuGwncZM1ecHdysdUZiOIh6G8IRE?usp=sharing)
-[![Documentation](https://drive.google.com/drive/folders/1KQUy1g1R3YquhTzq7ALHRKiH7k8PZJWo?usp=sharing)
+[![colab](https://colab.research.google.com/drive/1BzDPxoMdxujfr4oa-GpBeUyM53HRl3Uf)]
+[![Research Papers](https://drive.google.com/drive/folders/158C8WPONIfeXPt0sR6XoaGPvizsOnsXt?usp=sharing)]
+[![Data Set](https://drive.google.com/drive/folders/1zPIkAuGwncZM1ecHdysdUZiOIh6G8IRE?usp=sharing)]
+[![Documentation](https://drive.google.com/drive/folders/1KQUy1g1R3YquhTzq7ALHRKiH7k8PZJWo?usp=sharing)]
 
 This project introduces a method for auto-conversion of 2D floor plans into the 3D graphical representation. Architectural floor plan plays a crucial role in designing, understanding, or remodeling indoor spaces and effective in conveying geometric and semantic information of a scene. Professional architects or designers draw floor plans in a vector-graphics representation using software such as AutoCAD, 3D max etc.
 2D floor plans are collected in raster format and used as a dataset. These drawings are then semantically segmented by using object detection framework Yolo-V3. We use junction points as an object and detect them by using deep learning. A neural architecture transforms a 2D image into a set of junction points that shows low level semantic information. 
 Detected junction points mapped into a hierarchy of walls and doors to build a graphical representation of 2D image. A low-level hierarchy are then transformed into 3D by using a geometric processing method. For better performance we design an algorithm to handle the wrongly and unpredicted junction points. Lastly, a web application is introduced to allow any user to obtain a 3D model with ease. 
 To conclude, this project has proposed an automated process for reconstruction and made it ready to use even for a person without technical knowledge.
 
-
+s
 
 ### Demo of the project
 <p align="center"><img src="demo-images/output.gif"\></p>
@@ -50,6 +50,7 @@ pip3 install python-opencv
 
 Open the Makefile in the darknet folder and change the openCV to 1 
 Make file configuration file look like this remaining will unchange
+```bash
 
   GPU=0
   CUDNN=0
@@ -60,6 +61,7 @@ Make file configuration file look like this remaining will unchange
   LIBSO=0
   ZED_CAMERA=0
   ZED_CAMERA_v2_8=0
+```
 
 
 ```bash
@@ -135,8 +137,9 @@ After running this line the model will generate data.txt file that contains the 
 
 <p align="center"><img src="demo-images/features.png"\></p>
 
-<p align="center"><img src="demo-images/aboutus.png"\></p>
+<p align="center"><img src="demo-images/aboutus.png"\></p> 
 
+<p align="center"><img src="demo-images/team.png"\></p> 
 
 
 Follow the instruction if you want to run flask application in your machine. you can upload image there and detector will run automatically and its render into 3D as well at run time.
