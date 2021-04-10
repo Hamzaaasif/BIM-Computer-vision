@@ -2,7 +2,7 @@
 [![colab](https://colab.research.google.com/drive/1BzDPxoMdxujfr4oa-GpBeUyM53HRl3Uf)]
 [![Research Papers](https://drive.google.com/drive/folders/158C8WPONIfeXPt0sR6XoaGPvizsOnsXt?usp=sharing)]
 [![Data Set](https://drive.google.com/drive/folders/1zPIkAuGwncZM1ecHdysdUZiOIh6G8IRE?usp=sharing)]
-[![Documentation](https://drive.google.com/drive/folders/1KQUy1g1R3YquhTzq7ALHRKiH7k8PZJWo?usp=sharing)]
+[![Documentation](https://drive.google.com/file/d/17u8FXMH2QopidDlX4GRNMXg5nYBjgb6X/view?usp=sharing)]
 
 This project introduces a method for auto-conversion of 2D floor plans into the 3D graphical representation. Architectural floor plan plays a crucial role in designing, understanding, or remodeling indoor spaces and effective in conveying geometric and semantic information of a scene. Professional architects or designers draw floor plans in a vector-graphics representation using software such as AutoCAD, 3D max etc.
 2D floor plans are collected in raster format and used as a dataset. These drawings are then semantically segmented by using object detection framework Yolo-V3. We use junction points as an object and detect them by using deep learning. A neural architecture transforms a 2D image into a set of junction points that shows low level semantic information. 
@@ -188,7 +188,7 @@ now the app will run on your local server at http://127.0.0.1:5000/
 
 ## Project Documentation  
 For detailed information about the project, you can read our documentation 
-https://drive.google.com/file/d/1pecR6uyqobnT01kFHbIcdVzjkbSnSRJk/view?usp=sharing
+https://drive.google.com/file/d/17u8FXMH2QopidDlX4GRNMXg5nYBjgb6X/view?usp=sharing
 
 ## Contributers 
 
