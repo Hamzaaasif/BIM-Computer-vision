@@ -1,5 +1,5 @@
 # BUILDING INFORMATION MODELING-AUTOMATION OF 3D RECONSTRUCTION 
-[![colab](https://colab.research.google.com/drive/1BzDPxoMdxujfr4oa-GpBeUyM53HRl3Uf)]
+[colab](https://colab.research.google.com/drive/1BzDPxoMdxujfr4oa-GpBeUyM53HRl3Uf)
 [![Research Papers](https://drive.google.com/drive/folders/158C8WPONIfeXPt0sR6XoaGPvizsOnsXt?usp=sharing)]
 [![Data Set](https://drive.google.com/drive/folders/1zPIkAuGwncZM1ecHdysdUZiOIh6G8IRE?usp=sharing)]
 [![Documentation](https://drive.google.com/file/d/17u8FXMH2QopidDlX4GRNMXg5nYBjgb6X/view?usp=sharing)]
