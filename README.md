@@ -9,7 +9,7 @@ This project introduces a method for auto-conversion of 2D floor plans into the 
 Detected junction points mapped into a hierarchy of walls and doors to build a graphical representation of 2D image. A low-level hierarchy are then transformed into 3D by using a geometric processing method. For better performance we design an algorithm to handle the wrongly and unpredicted junction points. Lastly, a web application is introduced to allow any user to obtain a 3D model with ease. 
 To conclude, this project has proposed an automated process for reconstruction and made it ready to use even for a person without technical knowledge.
 
-s
+
 
 ### Demo of the project
 <p align="center"><img src="demo-images/output.gif"\></p>
@@ -28,7 +28,7 @@ If there is a custom function you want to see created then create an issue in th
 
 I am demonstrating how you can run this project on the machine (Linux ubuntu recommended). For testing purpose, there is no need for gpu. You can run this project without gpu. I am using linux ubuntu, you can follow youe own steps if you want to run in windows. You can run this project in google colab as well by following same instructions
 
-###Cloning the Darknet
+### Cloning the Darknet
 ```bash
 #Python == 3.8 (required)
 #pip3          (required)
@@ -46,7 +46,7 @@ https://github.com/AlexeyAB/darknet
 pip3 install python-opencv
 
 ```
-###Change the Configuration files
+### Change the Configuration files
 
 Open the Makefile in the darknet folder and change the openCV to 1 
 Make file configuration file look like this remaining will unchange
@@ -156,7 +156,7 @@ pip3 install flask-cors
 
 ```
 
-##Clone this repository to get flask app
+## Clone this repository to get flask app
 
 Clone this repository same where you cloned the darknet folder the folder strcutre will be look like this
 
@@ -170,7 +170,7 @@ Clone this repository same where you cloned the darknet folder the folder strcut
 
 ```
 
-###Run thie flask-app
+### Run thie flask-app
 
 ```bash
 
