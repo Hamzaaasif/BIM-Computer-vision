@@ -192,7 +192,7 @@ https://drive.google.com/file/d/17u8FXMH2QopidDlX4GRNMXg5nYBjgb6X/view?usp=shari
 
 ## Contributers 
 
-We are welcome our collabraters cloene thie project and create pull requests for further deployments
+We are welcome our collabraters clone thie project and create pull requests for further deployments
 
 ## Contact us 
 
